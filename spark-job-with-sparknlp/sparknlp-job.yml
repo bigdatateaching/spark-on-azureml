@@ -3,9 +3,6 @@ type: spark
 experiment_name: azure-project-tutorial
 display_name: test-with-archive-and-jar
 
-archives:
-  - explain_document_ml_en_4.4.2_3.2_1685186336939.zip
-
 jars:
   - spark-nlp-assembly-5.5.1.jar
 
