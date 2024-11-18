@@ -1,0 +1,15 @@
+/.quarto/
+.DS_Store
+.DS_Store?
+.Rhistory
+.Rproj.user
+/.quarto/
+*.amlignore
+*.amltmp
+.ipynb_checkpoints/
+.ipynb_aml_checkpoints/
+*.Rproj
+.venv
+/_site/
+*.jar
+
