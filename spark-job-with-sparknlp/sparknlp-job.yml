@@ -8,7 +8,7 @@ jars:
 
 code: ./ 
 entry:
-  file: test-job-sparknlp.py
+  file: sample-spark-nlp-job.py
 
 conf:
   spark.executor.instances: 1
