@@ -6,6 +6,8 @@ from pyspark.sql import SparkSession
 
 print("Spark NLP version: ", sparknlp.version())
 
+## You need to add the spark-nlp jar to the spark session
+
 spark = SparkSession.builder \
     .config("spark.jars.packages", "com.johnsnowlabs.nlp:spark-nlp_2.12:5.5.1") \
     .getOrCreate()
