@@ -1,11 +1,4 @@
----
-title: "Using Azure Machine Learning for your projects"
-date: last-modified
-date-format: "dddd MMM D, YYYY [at] h:m a"
-format:
-  html:
-    toc: true
----
+# Spark on Azure Machine Learning
 
 The group AzureML environments are set up. Please read the important information contained in this note carefully.
 
@@ -28,9 +21,9 @@ The group AzureML environments are set up. Please read the important information
 
 ## Log into your team's Azure Machine Learning (AzureML) Workspace
 
-Navigate to https://ml.azure.com and login with your GU credentials
-Click workspaces
-You should see your team's workspace named project-group-##
+1. Navigate to https://ml.azure.com and login with your GU credentials
+1. Click workspaces
+1. You should see your team's workspace named project-group-##
 
 
 ## Your compute instance
@@ -66,9 +59,4 @@ Within each dataset directory the structure is similar. There is a `comments` an
 - The `202101-202303` dataset uses the `year=####/month=##` partitioning schema
 
 **Note:** There are differences in the both datasets with the partitioning schema names, the actual individual parquet file names, and the field names. If you do end up using both sets and want to stack them together (noting there is a three month gap), you'll have to process them individually and generate a common schema.
-d2c-450d-93b7-96eeb3699b22
 
-
-## Job example
-
-[Click here](azureml-job-example/azureml-job-example.zip) to download a zip file with an example on how to run an unattended Spark job in Azure Machine Learning.
